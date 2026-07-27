@@ -1,0 +1,60 @@
+{
+  "data": [
+    {
+      "id": "concept",
+      "label": "Data",
+      "elements": [
+        {
+          "id": "monthDimension",
+          "type": "DIMENSION",
+          "label": "Month (e.g. Iun 25)",
+          "options": { "min": 1, "max": 1 }
+        },
+        {
+          "id": "valueMetric",
+          "type": "METRIC",
+          "label": "Value",
+          "options": { "min": 1, "max": 1 }
+        }
+      ]
+    }
+  ],
+  "style": [
+    {
+      "id": "barColor",
+      "type": "FILL_COLOR",
+      "label": "Bar color",
+      "defaultValue": "#4472C4"
+    },
+    {
+      "id": "positiveColor",
+      "type": "FILL_COLOR",
+      "label": "Positive % color",
+      "defaultValue": "#2E7D32"
+    },
+    {
+      "id": "negativeColor",
+      "type": "FILL_COLOR",
+      "label": "Negative % color",
+      "defaultValue": "#C62828"
+    },
+    {
+      "id": "connectorColor",
+      "type": "FILL_COLOR",
+      "label": "Connector line color",
+      "defaultValue": "#595959"
+    },
+    {
+      "id": "currencySymbol",
+      "type": "TEXT_INPUT",
+      "label": "Currency symbol",
+      "defaultValue": "€"
+    },
+    {
+      "id": "decimals",
+      "type": "TEXT_INPUT",
+      "label": "% decimals (0 or 1)",
+      "defaultValue": "0"
+    }
+  ]
+}
