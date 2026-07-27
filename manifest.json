@@ -1,0 +1,15 @@
+{
+  "components": [
+    {
+      "id": "variance_waterfall_chart",
+      "name": "Variance Bar Chart (auto-flip % labels)",
+      "iconUrl": "https://raw.githubusercontent.com/google/looker-studio-community-visualizations/main/images/default-icon.png",
+      "description": "Bar chart with month-over-month % variance labels that automatically flip above/below the connector line depending on whether the change is positive or negative.",
+      "resource": {
+        "js": "dist/variance_waterfall_chart.js",
+        "config": "src/viz_config.json",
+        "logoUrl": "https://raw.githubusercontent.com/google/looker-studio-community-visualizations/main/images/default-icon.png"
+      }
+    }
+  ]
+}
